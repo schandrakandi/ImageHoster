@@ -21,7 +21,7 @@ import java.util.regex.Pattern;
 public class UserController {
 
     private static Pattern pswNamePtrn =
-            Pattern.compile("((?=.*\\d)(?=.*[a-z]|[A-Z])(?=.*[@#$%]).{6,15})");
+            Pattern.compile("((?=.*\\d)(?=.*[a-z]|[A-Z])(?=.*[@#$%]))");
 
     @Autowired
     private UserService userService;
